@@ -1,7 +1,7 @@
 import cv2
 
 def convert_to_sketch(image_path):
-    image = cv2.imread('D:\Permari\img to sketch\pikachu.png')
+    image = cv2.imread('pikachu.png')
     if image is None:
         print("Error: Could not read image file")
         return
